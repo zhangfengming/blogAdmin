@@ -44,45 +44,87 @@ export default {
           title: "首页"
         },
         {
-          icon: "el-icon-lx-cascades",
-          index: "table",
-          title: "用户管理"
-        },
-        {
-          icon: "el-icon-lx-copy",
-          index: "tabs",
-          title: "文章管理"
-        },
-        {
-          icon: "el-icon-lx-calendar",
-          index: "3",
-          title: "表单相关",
+          icon: "el-icon-lx-group",
+          index: "2",
+          title: "用户管理",
           subs: [
             {
-              index: "form",
-              title: "基本表单"
+              index: "user",
+              title: "用户管理"
             },
             {
-              index: "3-2",
-              title: "三级菜单",
-              subs: [
-                {
-                  index: "editor",
-                  title: "富文本编辑器"
-                },
-                {
-                  index: "markdown",
-                  title: "markdown编辑器"
-                }
-              ]
+              index: "system_user",
+              title: "系统用户管理"
             },
             {
-              index: "upload",
-              title: "文件上传"
+              index: "authority",
+              title: "权限管理"
             }
           ]
-        },
-        {
+        },{
+          icon: "el-icon-lx-read",
+          index: "3",
+          title: "文章管理",
+          subs: [
+            {
+              index: "article",
+              title: "文章管理"
+            },
+            {
+              index: "comment",
+              title: "评论管理"
+            },
+            {
+              index: "tag",
+              title: "标签管理"
+            }
+          ]
+        }
+        ,{
+          icon: "el-icon-lx-calendar",
+          index: "4",
+          title: "系统管理",
+          subs: [
+            {
+              index: "table",
+              title: "菜单管理"
+            },
+            {
+              index: "table",
+              title: "权限管理"
+            }
+          ]
+        }
+        // ,{
+        //   icon: "el-icon-lx-calendar",
+        //   index: "3",
+        //   title: "表单相关",
+        //   subs: [
+        //     {
+        //       index: "form",
+        //       title: "基本表单"
+        //     },
+        //     {
+        //       index: "3-2",
+        //       title: "三级菜单",
+        //       subs: [
+        //         {
+        //           index: "editor",
+        //           title: "富文本编辑器"
+        //         },
+        //         {
+        //           index: "markdown",
+        //           title: "markdown编辑器"
+        //         }
+        //       ]
+        //     },
+        //     {
+        //       index: "upload",
+        //       title: "文件上传"
+        //     }
+        //   ]
+        // }
+        ,{
           icon: "el-icon-lx-emoji",
           index: "icon",
           title: "自定义图标"

@@ -33,7 +33,7 @@ export default new Router({
                     path: '/table',
                     component: resolve => require(['../components/page/BaseTable.vue'], resolve),
                     meta: {
-                        title: '基础表格'
+                        title: '用户管理'
                     }
                 },
                 {
